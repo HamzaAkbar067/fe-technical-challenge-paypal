@@ -1,4 +1,6 @@
-import PayPalButton, { PayPalFormValues } from './PayPalButton'
+// import PayPalButton, { PayPalFormValues } from './PayPalButton';
+// import PayPalButton, { PayPalFormValues } from './PayPalButtonFC'
+import PayPalButton, { PayPalFormValues } from './PayPalButtonRenderOnceInStrictMode';
 import { Formik, FormikConfig } from 'formik'
 import './App.css'
 const submitHandler: FormikConfig<PayPalFormValues>['onSubmit'] = (_, formik) => {
