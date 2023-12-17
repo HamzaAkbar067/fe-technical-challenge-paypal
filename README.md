@@ -55,6 +55,7 @@ The `onApprove` function doesn't perform any specific actions.
 ---
 
 2. Re-factor the class component into a functional component, while applying improvements regarding the problems you noted before and any other optimizations.
+`src/PayPalButtonFC.tsx`
 3. Bonus: Get rid of the HOC connect component (perhaps by utilising other available APIs).
 
 - We use `useFormik` hook provided by Formik to access Formik's state and methods without using the `connect HOC`. Functional Component of PayPalButton component doesnot have `HOC connect`. check `src/PayPalButtonFC.tsx`.
